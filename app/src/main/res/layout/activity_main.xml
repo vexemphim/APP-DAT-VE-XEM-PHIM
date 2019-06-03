@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scorr"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="false"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="415dp"
+                    android:layout_height="84dp"
+                    app:srcCompat="@drawable/logotrungnguyen" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="411dp"
+                    android:layout_height="35dp"
+                    android:background="#59B9BBBB"
+                    android:text="TOP PHIM ĐANG CHIẾU"
+                    android:textColor="#FF0000"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aladdin"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="21dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toEndOf="@+id/godzilla"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="113dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/aladin" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="Aladdin"
+                    android:textColor="#090000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btaladdin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#59B9BBBB"
+                    android:text="Xem chi tiết"
+                    android:textColor="#FF0000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/thucung"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/godzilla">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="113dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/dangcapthucung" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="Đẳng Cấp Thú Cưng 2"
+                    android:textColor="#090000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btthucung"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#59B9BBBB"
+                    android:text="Xem chi tiết"
+                    android:textColor="#FF0000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/godzilla"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="113dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/godzilla" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="93dp"
+                    android:layout_height="90dp"
+                    android:text="Chúa Tể Godzilla"
+                    android:textColor="#090000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btgodzilla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#59B9BBBB"
+                    android:text="Xem chi tiết"
+                    android:textColor="#FF0000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/doraemon"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="21dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/aladdin"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="113dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/doraemon" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="Doraemon: Nobita và Mặt Trăng phiêu lưu ký "
+                    android:textColor="#090000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btdoraemon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#59B9BBBB"
+                    android:text="Xem chi tiết"
+                    android:textColor="#FF0000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/spiderman"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="9dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toEndOf="@+id/pokemon"
+                app:layout_constraintTop_toBottomOf="@+id/doraemon">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="113dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/spiderman" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="Spider-Man: Người Nhện Xa Nhà"
+                    android:textColor="#090000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btspiderman"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#59B9BBBB"
+                    android:text="Xem chi tiết"
+                    android:textColor="#FF0000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pokemon"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toEndOf="@+id/thucung"
+                app:layout_constraintTop_toBottomOf="@+id/aladdin">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="120dp"
+                    android:layout_height="152dp"
+                    app:srcCompat="@drawable/pokemon" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="Pokémon: Thám tử Pikachu"
+                    android:textColor="#090000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btpokemon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#59B9BBBB"
+                    android:text="Xem chi tiết"
+                    android:textColor="#FF0000" />
+            </LinearLayout>
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

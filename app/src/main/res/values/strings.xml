@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">DatVeXemPhim</string>
+    <string name="txtTen">Họ Và Tên:</string>
+    <string name="diachi">Địa chỉ: Đường N1, Khu trường học đào tạo và dạy nghề Bắc Hòn Ông – Phước Đồng – Nha Trang – Khánh Hòa </string>
+    <string name="cinema">TRUNG NGUYEN CINEMA</string>
+    <string name="txtSĐT">Số điện thoại:</string>
+    <string name="txtNgàySinh">Email:</string>
+    <string name="editTên"></string>
+    <string name="editSĐT"></string>
+    <string name="editNgàySinh"></string>
+    <string name="txtGiớiTính">Giới Tính</string>
+    <string name="chkNam">Nam</string>
+    <string name="chkNữ">Nữ</string>
+    <string name="txtChọnPhim">Phim hôm nay:</string>
+    <string-array name="chonphim_array">
+        <item>Trạng Quỳnh</item>
+        <item>Siêu Sao Siêu Ngố</item>
+        <item>Cua Lại Vợ Bầu</item>
+        <item>Hồn Pa Pa Da Con Gái</item>
+        <item>Ba Chàng Khuyết</item>
+        <item>Biệt Đội Siêu Anh Hùng 4: Hồi Kết Avengers: Endgame</item>
+        <item>Sát Thủ John Wick 3: Chuẩn Bị Chiến Tranh John Wick Chapter 3: Parabellum</item>
+    </string-array>
+    <string name="txtChọnRạp">Chọn Rạp</string>
+    <string-array name="chonrap_array">
+        <item>CGV Big C Nha Trang</item>
+        <item>Beta</item>
+        <item>LotteCinema</item>
+    </string-array>
+    <string name="txtSốLượngVé">Số Lượng Vé:</string>
+    <string name="editSốLượngVé"></string>
+    <string name="ndgodzilla">Sự xuất hiện của Godzilla trong quá khứ khiến con người phát hiện ra những sinh vật cổ đại Titan khổng lồ vẫn còn tồn tại trên Trái Đất. Sau trận chiến đánh bại kẻ thù, Godzilla mất tích vào lòng biển. Một ngày kia, Rồng ba đầu Ghidorah trỗi dậy kéo theo sự thức tỉnh của hàng trăm quái vật khổng lồ. Tất cả những gì chúng muốn là tranh giành quyền lực tối cao, thống lĩnh thế giới. Trong trận đại chiến hủy diệt chưa từng có trong lịch sử này, liệu "Chúa tể của muôn loài" Godzilla sẽ trở lại và là “đấng cứu thế” của nhân loại trước hiểm họa diệt vong ?</string>
+    <string name="nddoraemon">Tớ tin chắc rằng có người sống trên mặt trăng. Tớ sẽ chứng minh điều đó!" Quyết tâm thực hiện bằng được kế hoạch sau khi hùng hồn tuyên bố với cả lớp, Nobita cầu cứu đến sự trợ giúp của Doraemon. Câu chuyện thú vị gì sẽ xảy ra?</string>
+    <string name="ndpokemon">Phim lấy bối cảnh thành phố Ryme, nơi con người và các Pokémon sống chung với nhau. Nhân vật chính của phim là Tim Goodman, một anh chàng có ước mơ làm Huấn luyện viên Pokémon nhưng đã phải từ bỏ đam mê sau khi cha anh – một cảnh sát mẫn cán - mất tích trong một vụ tai nạn ô tô. Một ngày, Tim bỗng nhiên phát hiện ra một chú Pikachu đi lạc vào nhà mình, nhưng ngạc nhiên hơn cả là anh nghe được nó nói gì thay vì những tiếng “Pika, Pika” quen thuộc. Cả hai cùng dấn thân vào cuộc điều tra những vụ mất tích bí ẩn trong thành phố, để rồi từ đó phát hiện ra những bí mật không ngờ tới đằng sau sự mất tích của cha Tim.</string>
+    <string name="txtĐịaChỉ">Địa Chỉ</string>
+    <string name="ndspider">Hậu chiến Vô Cực, Người Nhện Peter Parker và nhóm bạn thân cùng tham gia chuyến du lịch châu Âu của trường. Tuy nhiên, kế hoạch siêu anh hùng nghỉ phép của Peter nhanh chóng bị hủy bỏ sau khi cậu đồng ý giúp Nick Fury khám phá bí ẩn về những cuộc tấn công của nhóm kẻ thù mang sức mạnh nguyên tố đang tàn phá khắp lục địa.</string>
+    <string name="ndthucung"> Cũng như bao thú cưng khác, khi đến phòng khám Max đã không giấu nổi vẻ âu lo trên khuôn mặt. Đã vậy, chú chó tội nghiệp còn gặp thêm nhiều người bạn đồng loại vô cùng bất bình thường. Đầu tiên là chú mèo xám thân thiện bắt chuyện với Max, trấn an cậu rằng bác sĩ thú y ở đây rất giỏi nhất ngành về chữa trị chứng… rối loạn cư xử. Và rồi thì chú mèo bắt đầu “nổi đóa” cào cấu chủ. Lần lượt sau đó Max được gặp chú chuột hamster xám điên cuồng “chạy bộ” giảm cân, một chú chó nâu luôn phân vân rằng liệu mình có đủ ngoan, lại còn cả một cặp mèo sinh đôi có nụ cười vô cùng quái dị. Tránh vỏ dưa lại gặp vỏ dừa, Max vốn đã âu lo lại càng trở nên sợ sệt hơn với cuộc thăm khám trước mắt.</string>
+
+    <string name="ndaladdin">Phiên bản live-action của phim hoạt hình Aladdin (1992) kinh điển. Dựa trên truyện cổ tích trứ danh xứ Ả Rập, phim kể về chàng trai mồ côi lang thang Aladdin vô tình có được cây đèn thần kỳ diệu, với vị thần vui tính ban cho anh ba điều ước. Nhưng khi chuyện đến tai Jafar, Aladdin phải lao vào cuộc hành trình để giải cứu công chúa Jasmine, vương quốc và đánh bại gã pháp sư độc ác.</string>
+</resources>
