@@ -11,21 +11,20 @@
     <string name="txtGiớiTính">Giới Tính</string>
     <string name="chkNam">Nam</string>
     <string name="chkNữ">Nữ</string>
-    <string name="txtChọnPhim">Phim hôm nay:</string>
+    <string name="txtChọnPhim">PHIM HOT HÔM NAY:</string>
     <string-array name="chonphim_array">
-        <item>Trạng Quỳnh</item>
-        <item>Siêu Sao Siêu Ngố</item>
-        <item>Cua Lại Vợ Bầu</item>
-        <item>Hồn Pa Pa Da Con Gái</item>
-        <item>Ba Chàng Khuyết</item>
-        <item>Biệt Đội Siêu Anh Hùng 4: Hồi Kết Avengers: Endgame</item>
-        <item>Sát Thủ John Wick 3: Chuẩn Bị Chiến Tranh John Wick Chapter 3: Parabellum</item>
+        <item>ALADDIN</item>
+        <item>DORAEMON-NOBITA VÀ MẶT TRĂNG PHIÊU LƯU KÍ</item>
+        <item>POKEMON-THÁM TỬ PIKACHU</item>
+        <item>CHÚA TỂ GODZILLA</item>
+        <item>SPIDER MAN-NGƯỜI NHỆN XA NHÀ</item>
+        <item>ĐẲNG CẤP THÚ CƯNG 2</item>
+
     </string-array>
-    <string name="txtChọnRạp">Chọn Rạp</string>
-    <string-array name="chonrap_array">
-        <item>CGV Big C Nha Trang</item>
-        <item>Beta</item>
-        <item>LotteCinema</item>
+    <string name="txtChọnRạp">SỐ LƯỢNG</string>
+    <string-array name="donvi">
+        <item>VND</item>
+        <item>USD</item>
     </string-array>
     <string name="txtSốLượngVé">Số Lượng Vé:</string>
     <string name="editSốLượngVé"></string>
