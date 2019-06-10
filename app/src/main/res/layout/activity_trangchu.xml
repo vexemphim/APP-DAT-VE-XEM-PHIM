@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CC02FFED"
     tools:context=".trangchu">
 
 
@@ -29,8 +30,8 @@
                 android:id="@+id/textView2"
                 android:layout_width="388dp"
                 android:layout_height="40dp"
-                android:background="#59B9BBBB"
-                android:text="Thông Tin Khách Hàng"
+                android:background="#000000"
+                android:text="THÔNG TIN"
                 android:textColor="#FF0000"
                 android:textSize="22dp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -39,37 +40,40 @@
             <TextView
                 android:id="@+id/txtTen"
                 android:layout_width="100dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="27dp"
-                android:layout_marginLeft="27dp"
-                android:layout_marginTop="31dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="21dp"
                 android:text="@string/txtTen"
-                android:textColor="#090000"
+                android:textColor="#090909"
+                android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView2"
                 tools:text="@string/txtTen" />
 
             <TextView
                 android:id="@+id/txtSĐT"
-                android:layout_width="100dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="27dp"
-                android:layout_marginLeft="27dp"
-                android:layout_marginTop="25dp"
+                android:layout_width="113dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/txtSĐT"
                 android:textColor="#090000"
+                android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txtTen" />
 
             <TextView
                 android:id="@+id/txtNgàySinh"
                 android:layout_width="100dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="27dp"
-                android:layout_marginLeft="27dp"
-                android:layout_marginTop="32dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/txtNgàySinh"
                 android:textColor="#090000"
+                android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txtSĐT" />
 
@@ -120,7 +124,7 @@
                 android:layout_width="400dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="10dp"
-                android:background="#59B9BBBB"
+                android:background="#CC000000"
                 android:text="@string/txtChọnPhim"
                 android:textColor="#FF0000"
                 android:textSize="22dp"
@@ -129,12 +133,12 @@
 
             <TextView
                 android:id="@+id/txtChọnPhim"
-                android:layout_width="204dp"
-                android:layout_height="38dp"
+                android:layout_width="165dp"
+                android:layout_height="33dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
-                android:background="#59B9BBBB"
+                android:background="#CC000000"
                 android:text="SỐ LƯỢNG VÉ"
                 android:textColor="#FF0000"
                 android:textSize="22dp"
@@ -148,7 +152,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="7dp"
-                android:background="#59B9BBBB"
+                android:background="#CC000000"
                 android:text="THANH TOÁN"
                 android:textColor="#FF0000"
                 android:textSize="22dp"
@@ -164,7 +168,7 @@
                 android:layout_marginTop="8dp"
                 android:entries="@array/chonphim_array"
                 android:spinnerMode="dropdown"
-                android:textColor="#090000"
+                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txtChọnPhim4" />
 
@@ -175,8 +179,9 @@
                 android:layout_marginTop="6dp"
                 android:layout_marginEnd="22dp"
                 android:layout_marginRight="22dp"
+                android:background="#CC000000"
                 android:text="ĐẶT VÉ"
-                android:textColor="#090000"
+                android:textColor="#FF0000"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tableLayout6" />
 
@@ -186,8 +191,9 @@
                 android:layout_height="53dp"
                 android:layout_marginStart="27dp"
                 android:layout_marginLeft="27dp"
+                android:background="#CC000000"
                 android:text="hủy Mua"
-                android:textColor="#090000"
+                android:textColor="#FF0000"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tableLayout6" />
 
@@ -204,9 +210,9 @@
 
                 <TextView
                     android:id="@+id/txtchonghe"
-                    android:layout_width="155dp"
+                    android:layout_width="165dp"
                     android:layout_height="39dp"
-                    android:background="#59B9BBBB"
+                    android:background="#CC000000"
                     android:text="SỐ LƯỢNG "
                     android:textColor="#FF0000"
                     android:textSize="22dp" />
@@ -239,9 +245,9 @@
 
                 <TextView
                     android:id="@+id/txtchonghe2"
-                    android:layout_width="155dp"
+                    android:layout_width="165dp"
                     android:layout_height="39dp"
-                    android:background="#59B9BBBB"
+                    android:background="#CC000000"
                     android:text="DỊCH VỤ"
                     android:textColor="#FF0000"
                     android:textSize="22dp" />
@@ -264,11 +270,10 @@
 
             <EditText
                 android:id="@+id/edsoluong"
-                android:layout_width="173dp"
-                android:layout_height="34dp"
-                android:layout_marginTop="6dp"
-                android:layout_marginEnd="6dp"
-                android:layout_marginRight="6dp"
+                android:layout_width="170dp"
+                android:layout_height="49dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -292,7 +297,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="7dp"
-                android:background="#59B9BBBB"
+                android:background="#CC000000"
                 android:text="HỘI VIÊN"
                 android:textColor="#FF0000"
                 android:textSize="22dp"
@@ -307,7 +312,7 @@
                 android:layout_marginLeft="8dp"
 
                 android:layout_marginTop="5dp"
-                android:background="#59B9BBBB"
+                android:background="#CC000000"
                 android:text="CHỌN GHẾ"
                 android:textColor="#FF0000"
                 android:textSize="22dp"

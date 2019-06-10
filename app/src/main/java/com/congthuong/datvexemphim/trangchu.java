@@ -141,7 +141,7 @@ public class trangchu extends AppCompatActivity {
                                                    else
                                                        msg += "KHÔNG PHẢI HỘI VIÊN";
 
-                                                   msg += System.getProperty("line.separator") + "THANH TOÁN BẰNG: " +
+                                                   msg += System.getProperty("line.separator") + "KIỂU THANH TOÁN: " +
                                                            thanhtoan.getSelectedItem().toString();
 
                                                    msg += System.getProperty("line.separator") + "HÀNG GHẾ CỦA BẠN: ";

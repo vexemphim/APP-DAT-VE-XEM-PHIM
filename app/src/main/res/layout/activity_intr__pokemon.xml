@@ -14,7 +14,8 @@
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#CC02FFED">
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -143,7 +144,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="53dp"
-                    android:background="#59B9BBBB"
+                    android:background="#0F0F0F"
                     android:text="THÔNG TIN"
                     android:textColor="#FF0000"
                     android:textSize="30dp" />
@@ -153,13 +154,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/ndgodzilla"
-                    android:textSize="17dp" />
+                    android:textSize="17dp"
+                    android:textColor="#000000"/>
 
                 <Button
                     android:id="@+id/btdatve"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ĐẶT VÉ" />
+                    android:background="#0F0F0F"
+                    android:text="ĐẶT VÉ"
+                    android:textColor="#FA0303"
+                    android:textSize="30sp" />
+
             </LinearLayout>
 
         </android.support.constraint.ConstraintLayout>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CC02FFED"
     tools:context=".intr_doraemon">
 
     <ScrollView
@@ -132,7 +133,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="53dp"
-                    android:background="#59B9BBBB"
+                    android:background="#0F0F0F"
                     android:text="THÔNG TIN"
                     android:textColor="#FF0000"
 
@@ -143,13 +144,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/nddoraemon"
+                    android:textColor="#050505"
                     android:textSize="17dp" />
 
                 <Button
                     android:id="@+id/btdatve"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ĐẶT VÉ" />
+                    android:background="#0F0F0F"
+                    android:text="ĐẶT VÉ"
+                    android:textColor="#FA0303"
+                    android:textSize="30sp" />
             </LinearLayout>
         </android.support.constraint.ConstraintLayout>
     </ScrollView>

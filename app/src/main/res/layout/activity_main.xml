@@ -5,6 +5,7 @@
     android:id="@+id/scorr"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
+    android:background="#CC02FFED"
     android:focusableInTouchMode="false"
     tools:context=".MainActivity">
 
@@ -40,7 +41,7 @@
                     android:id="@+id/textView8"
                     android:layout_width="411dp"
                     android:layout_height="35dp"
-                    android:background="#59B9BBBB"
+                    android:background="#CC000000"
                     android:text="TOP PHIM ĐANG CHIẾU"
                     android:textColor="#FF0000"
                     android:textSize="22dp" />
@@ -65,7 +66,7 @@
 
                 <TextView
                     android:id="@+id/text1"
-                    android:layout_width="wrap_content"
+                    android:layout_width="110dp"
                     android:layout_height="90dp"
                     android:text="Aladdin"
                     android:textColor="#090000"
@@ -75,7 +76,7 @@
                     android:id="@+id/btaladdin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#59B9BBBB"
+                    android:background="#CC000000"
                     android:text="Xem chi tiết"
                     android:textColor="#FF0000" />
             </LinearLayout>
@@ -84,7 +85,7 @@
                 android:id="@+id/thucung"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="10dp"
                 android:orientation="vertical"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/godzilla">
@@ -107,7 +108,7 @@
                     android:id="@+id/btthucung"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#59B9BBBB"
+                    android:background="#CC000000"
                     android:text="Xem chi tiết"
                     android:textColor="#FF0000" />
             </LinearLayout>
@@ -118,6 +119,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="21dp"
                 android:orientation="vertical"
+
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
@@ -128,8 +130,9 @@
                     app:srcCompat="@drawable/godzilla" />
 
                 <TextView
+
                     android:id="@+id/text4"
-                    android:layout_width="93dp"
+                    android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:text="Chúa Tể Godzilla"
                     android:textColor="#090000"
@@ -139,9 +142,9 @@
                     android:id="@+id/btgodzilla"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#59B9BBBB"
+                    android:background="#CC000000"
                     android:text="Xem chi tiết"
-                    android:textColor="#FF0000" />
+                    android:textColor="#F30202" />
             </LinearLayout>
 
             <LinearLayout
@@ -174,7 +177,8 @@
                     android:id="@+id/btdoraemon"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#59B9BBBB"
+
+                    android:background="#CC000000"
                     android:text="Xem chi tiết"
                     android:textColor="#FF0000" />
             </LinearLayout>
@@ -208,7 +212,7 @@
                     android:id="@+id/btspiderman"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#59B9BBBB"
+                    android:background="#CC000000"
                     android:text="Xem chi tiết"
                     android:textColor="#FF0000" />
             </LinearLayout>
@@ -243,7 +247,7 @@
                     android:id="@+id/btpokemon"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#59B9BBBB"
+                    android:background="#CC000000"
                     android:text="Xem chi tiết"
                     android:textColor="#FF0000" />
             </LinearLayout>

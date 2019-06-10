@@ -9,6 +9,7 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#CC02FFED"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -134,7 +135,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="53dp"
-                    android:background="#59B9BBBB"
+                    android:background="#0F0F0F"
                     android:text="THÔNG TIN"
                     android:textColor="#FF0000"
                     android:textSize="30dp" />
@@ -144,13 +145,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="210dp"
                     android:text="@string/ndaladdin"
+                    android:textColor="#000000"
                     android:textSize="17dp" />
 
                 <Button
                     android:id="@+id/btdatve"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ĐẶT VÉ" />
+                    android:background="#0F0F0F"
+                    android:text="ĐẶT VÉ"
+                    android:textColor="#FA0303"
+                    android:textSize="30sp" />/>
             </LinearLayout>
 
         </android.support.constraint.ConstraintLayout>
