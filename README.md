@@ -6,7 +6,8 @@
     
     Sau đó hãy chọn 1 bộ phim mà bạn muốn xem.<br/>
     
-    Chọn XEM CHI TIẾT để xem thông tin của bộ phim. Ứng dụng sẽ chuyển sang trang mới, tương ứng với bộ phim bạn chọn lựa..
+    Chọn XEM CHI TIẾT để xem thông tin của bộ phim.<br/>
+    Ứng dụng sẽ chuyển sang trang mới, tương ứng với bộ phim bạn chọn lựa..
     
     
     Sau khi xem thông tin, cốt truyện của bộ phim, nếu bạn thích và lựa chọn bộ phim này thì nhấn vào ĐẶT VÉ.
