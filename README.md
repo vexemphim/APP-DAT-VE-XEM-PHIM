@@ -11,6 +11,7 @@
     
   <a> Nhấn XEM CHI TIẾT để xem nội dung của bộ phim</a><br/>
    <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62258270_483836252380717_8993543569432117248_n.png?_nc_cat=110&_nc_oc=AQlYyypNW1ZT_0wGYyFrAyrERyR6VblkIFzG2lvS0LXDK_ZufPAeTccCuCCIa4Kjz6A&_nc_ht=scontent.fdad2-1.fna&oh=62ccd223b50d7e809e0810f6f042e63c&oe=5D7CB118"/> <br/>
+   <a> Nhấn ĐẶT VÉ</a><br/>
 
 
    <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/62597638_2372897799648386_5941134514305630208_n.png?_nc_cat=103&_nc_oc=AQmeKvculVdND45XIfMmSwDwxPKpKwbpWm_RPx4BefNz-ExKPCC9yj4J0Qkas7KdjmI&_nc_ht=scontent.fdad1-1.fna&oh=14a6d4162034d92080e07d5097875a0b&oe=5D9C138E"/>
