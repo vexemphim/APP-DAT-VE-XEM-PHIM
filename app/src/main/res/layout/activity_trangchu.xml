@@ -222,14 +222,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:text="0" />
 
                 <EditText
                     android:id="@+id/ednuocngot"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:text="0" />
             </LinearLayout>
 
             <LinearLayout
@@ -276,6 +278,7 @@
                 android:layout_marginRight="8dp"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:text="0"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 

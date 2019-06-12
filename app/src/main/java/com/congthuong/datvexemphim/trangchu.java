@@ -73,6 +73,10 @@ public class trangchu extends AppCompatActivity {
             }
         });
 
+        final int a = 50000;
+        final int tbap= 20000;
+        final int tnuoc= 20000;
+
         final EditText ten = (EditText) findViewById(R.id.editTên);
         final EditText sdt = (EditText) findViewById(R.id.editSĐT);
         final EditText email = (EditText) findViewById(R.id.editemail);
@@ -111,59 +115,50 @@ public class trangchu extends AppCompatActivity {
         final CheckBox d5 = (CheckBox) findViewById(R.id.checkBox26);
         final CheckBox d6 = (CheckBox) findViewById(R.id.checkBox23);
         xacnhan.setOnClickListener(new View.OnClickListener() {
-                                               public void onClick(View v) {
+        public void onClick(View v) {
 
+            String msg = "TÊN: " + ten.getText().toString() +
+              System.getProperty("line.separator") +
+                    "SỐ ĐIỆN THOẠI: " + sdt.getText().toString()
+                    + System.getProperty("line.separator") + "EMAIL: " + email.getText().toString();
+                     ten.setText("");
+                      sdt.setText("");
+                       email.setText("");
 
-                                                   String msg = "TÊN: " + ten.getText().toString() +
-                                                           System.getProperty("line.separator") +
-                                                           "SỐ ĐIỆN THOẠI: " + sdt.getText().toString()
-                                                           + System.getProperty("line.separator") + "EMAIL: " + email.getText().toString();
-
-
-                                                   ten.setText("");
-                                                   sdt.setText("");
-                                                   email.setText("");
-
-                                                   msg += System.getProperty("line.separator") + "PHIM CỦA BẠN LÀ: " +
+                       msg += System.getProperty("line.separator") + "PHIM CỦA BẠN LÀ: " +
                                                            chonphim.getSelectedItem().toString();
 
+                    msg +=  System.getProperty("line.separator") +"BẮP RANG (20k/suất): " + baprang.getText().toString() + " suất " + System.getProperty("line.separator") +
+                     "NƯỚC NGỌT (20k/suất): " + nuocngot.getText().toString() + " suất " + System.getProperty("line.separator") + "SỐ LƯỢNG VÉ(50k/vé): " + soluongve.getText().toString() + " VÉ" ;
+                         msg += System.getProperty("line.separator") + "HỘI VIÊN: ";
 
-
-                                                   msg +=  System.getProperty("line.separator") +"BẮP RANG: " + baprang.getText().toString() + " SUẤT" +
-                                                           System.getProperty("line.separator") +
-                                                           "NƯỚC NGỌT: " + nuocngot.getText().toString() + " SUẤT"
-                                                           + System.getProperty("line.separator") + "SỐ LƯỢNG VÉ: " + soluongve.getText().toString() + " VÉ" ;
-
-                                                   msg += System.getProperty("line.separator") + "HỘI VIÊN: ";
-
-                                                   if(hoivien.isChecked())
-                                                       msg += "LÀ HỘI VIÊN";
-                                                   else
-                                                       msg += "KHÔNG PHẢI HỘI VIÊN";
-
-                                                   msg += System.getProperty("line.separator") + "KIỂU THANH TOÁN: " +
+                           if(hoivien.isChecked())
+                               msg += "Có";
+                                 else
+                               msg += "Không";
+                                 msg += System.getProperty("line.separator") + "KIỂU THANH TOÁN: " +
                                                            thanhtoan.getSelectedItem().toString();
 
-                                                   msg += System.getProperty("line.separator") + "HÀNG GHẾ CỦA BẠN: ";
+                               msg += System.getProperty("line.separator") + "GHẾ ĐÃ CHỌN: ";
 
-                                                   if(a1.isChecked())
-                                                       msg +=  a1.getText().toString()+ ", ";
-                                                   if(a2.isChecked())
-                                                       msg += a2.getText().toString() + ", ";
-                                                   if(a3.isChecked())
-                                                       msg += a3.getText().toString()+ ",  ";
-                                                   if(a4.isChecked())
-                                                       msg +=  a4.getText().toString()+ ", ";
-                                                   if(a5.isChecked())
-                                                       msg += a5.getText().toString() + ", ";
-                                                   if(a6.isChecked())
-                                                       msg += a6.getText().toString()+ ",  ";
+                                if(a1.isChecked())
+                                     msg +=  a1.getText().toString()+ ", ";
+                                if(a2.isChecked())
+                                      msg += a2.getText().toString() + ", ";
+                                if(a3.isChecked())
+                                        msg += a3.getText().toString()+ ",  ";
+                                if(a4.isChecked())
+                                       msg +=  a4.getText().toString()+ ", ";
+                                  if(a5.isChecked())
+                                      msg += a5.getText().toString() + ", ";
+                                  if(a6.isChecked())
+                                       msg += a6.getText().toString()+ ",  ";
 
-                                                   if(b1.isChecked())
-                                                       msg +=  b1.getText().toString()+ ", ";
-                                                   if(b2.isChecked())
-                                                       msg += b2.getText().toString() + ", ";
-                                                   if(b3.isChecked())
+                                   if(b1.isChecked())
+                                       msg +=  b1.getText().toString()+ ", ";
+                                   if(b2.isChecked())
+                                       msg += b2.getText().toString() + ", ";
+                                        if(b3.isChecked())
                                                        msg += b3.getText().toString()+ ",  ";
                                                    if(b4.isChecked())
                                                        msg +=  b4.getText().toString()+ ", ";
@@ -222,13 +217,33 @@ public class trangchu extends AppCompatActivity {
                                                    d5.setChecked(false);
                                                    d6.setChecked(false);
 
-
-
-
-                                                   info(v, msg);
-
-                                               }
-                                           }
+            int thanhtien;
+            int slve = Integer.parseInt(soluongve.getText().toString());
+            int slbap = Integer.parseInt(baprang.getText().toString());
+            int slnuoc = Integer.parseInt(nuocngot.getText().toString());
+            if (baprang.getText().toString()=="" && nuocngot.getText().toString()=="") {
+                if (nuocngot.getText().toString()=="")
+                {
+                    thanhtien = (50000*slve) + (20000*slnuoc);
+                    msg += System.getProperty("line.separator") + "THÀNH TIỀN : "+ thanhtien;
+                }
+                else if (baprang.getText().toString()=="")
+                {
+                    thanhtien = (50000*slve) + (20000*slbap);
+                    msg += System.getProperty("line.separator") + "THÀNH TIỀN : "+ thanhtien;
+                }
+                else {
+                    thanhtien = (50000*slve);
+                    msg += System.getProperty("line.separator") + "THÀNH TIỀN : "+ thanhtien;
+                }
+            }
+            else {
+                thanhtien = (50000*slve)+ (20000*slbap) + (20000*slnuoc);
+                msg += System.getProperty("line.separator") + "THÀNH TIỀN : "+ thanhtien +" VND";
+            }
+            info(v, msg);
+         }
+        }
         );
         huy.setOnClickListener(new View.OnClickListener() {
                                          public void onClick(View v) {
@@ -249,10 +264,4 @@ public class trangchu extends AppCompatActivity {
         dlgAlert.setCancelable(true);
         dlgAlert.create().show();
     }
-
-
-
-
-
-
 }
