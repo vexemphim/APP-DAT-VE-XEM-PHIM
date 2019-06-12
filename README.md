@@ -8,6 +8,13 @@
     <a>Hãy chọn một bộ phim, bằng cách nhấn XEM CHI TIẾT.<br/></a>
    <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62182990_441350039745286_850309082572128256_n.png?_nc_cat=101&_nc_oc=AQlvO7MeXzqgqQo3f-Q_f1tpTNUnKP2VKfOXQyRadbVMMujLuZVfbwsHua-yoJHTaq4&_nc_ht=scontent.fdad2-1.fna&oh=d8951a9bc12e5ed20ca03e48ef8cc9c2&oe=5D9289F7"/> <br/>
 
-     <a>Giao diện chuyển sang nội dung của phim, chọn ĐẶT VÉ ở cuối trang.<br/></a
+
    <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/62617530_403348913595514_1256807434828120064_n.png?_nc_cat=102&_nc_oc=AQl9nGn8qZeuhmc_Ohq1w1sxUQiMF1AlSDwQGTEa4QeW_vAWlH1TaYoqM9fyP71YYok&_nc_ht=scontent.fdad1-1.fna&oh=ddc21bf44997ff8daa59f1efe7ecd838&oe=5D8B7F4D"/>
+   
+   <a> Sau khi chọn ĐẶT VÉ. Giao diện chuyển sang trang mới, trang ĐẶT VÉ PHIM.<br/>
+        Tại đây,hãy điền đầy đủ thông tin bên dưới
+    
+   </a>
+    <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62259738_452844225543104_7993809014104260608_n.png?_nc_cat=107&_nc_oc=AQmEXAKnJbTKMC-jb8XwEVHkYlEluMOvIT2wEz5vFT0f_rE2lRqPKpL9fbvHzzgEVto&_nc_ht=scontent.fdad2-1.fna&oh=ee056ae3c185a7e042837fae8b93c80a&oe=5D98A3CF"/>
+   <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62234137_454865982007375_1844383231781109760_n.png?_nc_cat=108&_nc_oc=AQkyk8YvwgcxofEurI0LrpnXJiiCilteqGpIQoDfb9hYTAZWoj-LIWHQGsUNiRP0G1M&_nc_ht=scontent.fdad2-1.fna&oh=8804b6aedf9cc2297abe31643f2038b3&oe=5D8A2BD2"/>
      
