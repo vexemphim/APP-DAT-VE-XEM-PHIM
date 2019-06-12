@@ -1,3 +1,9 @@
+<style>
+    h1{
+        color:red;
+    }
+</style>
+
 <h1>ỨNG DỤNG ĐẶT VÉ XEM PHIM</h1>
 <a>Ưu điểm:
     + Giao diện đơn giản, không phức tạp, dễ sử dụng.
@@ -8,7 +14,7 @@
     
    <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/62342648_635311533611161_7152274051501654016_n.png?_nc_cat=104&_nc_oc=AQnQi4LuU_1r4vhWQ0qQq5gW_q73za200o3VlkF_8V7v67kTdtt1ZJLdKlez9dbrMZI&_nc_ht=scontent.fdad1-1.fna&oh=879dc3fb889841790680e9f7c154c95e&oe=5D9107BA"></img>
     
-    <a>Hãy chọn một bộ phim, bằng cách nhấn XEM CHI TIẾT.<br/></a>
+  <a> Nhấn XEM CHI TIẾT để xem nội dung của bộ phim</a>
    <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62182990_441350039745286_850309082572128256_n.png?_nc_cat=101&_nc_oc=AQlvO7MeXzqgqQo3f-Q_f1tpTNUnKP2VKfOXQyRadbVMMujLuZVfbwsHua-yoJHTaq4&_nc_ht=scontent.fdad2-1.fna&oh=d8951a9bc12e5ed20ca03e48ef8cc9c2&oe=5D9289F7"/> <br/>
 
 
