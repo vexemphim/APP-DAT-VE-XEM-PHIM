@@ -1,13 +1,8 @@
-<style>
-    h1{
-        color:red;
-    }
-</style>
 
-<h1>ỨNG DỤNG ĐẶT VÉ XEM PHIM</h1>
-<a>Ưu điểm:
-    + Giao diện đơn giản, không phức tạp, dễ sử dụng.
-    + Mô phỏng ứng dụng Đặt Vé Xem Phim.
+<h1><strong>ỨNG DỤNG ĐẶT VÉ XEM PHIM</strong></h1>
+<a>Ưu điểm:<br/>
+    + Giao diện đơn giản, không phức tạp, dễ sử dụng.<br/>
+    + Mô phỏng ứng dụng Đặt Vé Xem Phim.<br/>
 <a/>
 <p>
     Đầu tiên, giao diện khởi đầu với những bộ phim đang làm mưa làm gió tại các rap chiếu phim hiện nay.<br/>
