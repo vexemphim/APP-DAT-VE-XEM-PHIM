@@ -8,11 +8,11 @@
 <p>
     Đầu tiên, giao diện khởi đầu với những bộ phim đang làm mưa làm gió tại các rap chiếu phim hiện nay.<br/>
     
-   <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/62271131_472516593506870_8851232147361497088_n.png?_nc_cat=100&_nc_oc=AQn5z3pGv1cQkDFyM_9f9AsNpyNPJPMfZNi8w7j1OEA65kgN5XDYFDAfUDjF6jq4Wcw&_nc_ht=scontent.fdad1-1.fna&oh=f3ca03d016a467b407eea87f42156231&oe=5D7BF803"></img>
+   <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/64277802_2068600276579101_7610891849074475008_n.png?_nc_cat=110&_nc_oc=AQnjg7XPRaBtX5nk3F5-eR1AD_gHLecWqx0xWOynIwokg0BLKGs8RUzqM0Go7IoKGrQ&_nc_ht=scontent.fdad2-1.fna&oh=547617117087eae9b62f6cf1ab1e7604&oe=5D84328A"></img>
     <br/>
     
   <a> Nhấn <strong>XEM CHI TIẾT</strong> để xem nội dung của bộ phim</a><br/>
-   <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62258270_483836252380717_8993543569432117248_n.png?_nc_cat=110&_nc_oc=AQlYyypNW1ZT_0wGYyFrAyrERyR6VblkIFzG2lvS0LXDK_ZufPAeTccCuCCIa4Kjz6A&_nc_ht=scontent.fdad2-1.fna&oh=62ccd223b50d7e809e0810f6f042e63c&oe=5D7CB118"/> <br/>
+   <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/64450299_450379065777382_769189386712514560_n.png?_nc_cat=100&_nc_oc=AQnpOgakAb29oxwTjcVGvIqfrYkoDLdH8Q2WbGghECAO5cSlcR8PwxxvxQW4y7il2VQ&_nc_ht=scontent.fdad1-1.fna&oh=7d4e5378bf03154f198f8a9a46d57617&oe=5D83579A"/> <br/>
    <a> Nhấn <strong>ĐẶT VÉ</strong></a><br/>
 
 
@@ -22,11 +22,12 @@
         Tại đây,hãy điền đầy đủ thông tin bên dưới <br/>
     
    </a>
-    <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62245459_1167583553441864_310796417792737280_n.png?_nc_cat=101&_nc_oc=AQl2NxWtp4Iv5FHbQXcsikpyOMelHTZVnY6HFrAzDIj6w1HDuBGebI8832qFCe-qXb0&_nc_ht=scontent.fdad2-1.fna&oh=2a016fa0528ff154f7efb9144f3a84e9&oe=5D8487D0"/> <br/>
-    <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62484642_348603855799500_999361460108787712_n.png?_nc_cat=101&_nc_oc=AQlZp2LS5Qv3pMLqb5icVVIaq1lk9297Oo9euUZnWx9lTK57GbG8suPAIo6D5pblBQI&_nc_ht=scontent.fdad2-1.fna&oh=c035fc4db5491d00d1e37525c72aa8f7&oe=5D9979F6"/> <br/>
+    <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/64287812_2214274775352774_4842187193692717056_n.png?_nc_cat=104&_nc_oc=AQkI98QIJsPBptv0MD_bLmZSxCbzQl7u_1JRR6ktIM9WouFafHA1etrRsoOHAmks7JU&_nc_ht=scontent.fdad1-1.fna&oh=d1edd9779539784271a7464b233c07f4&oe=5DC53D73"/> <br/>
+    <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/64464025_337257233617074_5811208948987985920_n.png?_nc_cat=107&_nc_oc=AQlMjd2mdCs3z8DwDun1MxUhqNOLiLcvUHiJaaJtd8hXnGAezzJQEssao_vUT1XxxTs&_nc_ht=scontent.fdad2-1.fna&oh=6460b3af46c343851670569b675ce5ab&oe=5D99E238"/> <br/>
+    <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/64506359_2349271458659537_1777394227433439232_n.png?_nc_cat=110&_nc_oc=AQmh12XgwlWJkNCDRgEQWSAtri6oh4s6Y73-EsvrflP3_htXxc7qJ8ct_yUAS4qJz5w&_nc_ht=scontent.fdad2-1.fna&oh=35029ddc424304b2a06b8cb0beca9074&oe=5D87565D"/>
     
    <a> Mọi thao tác đã xong. Nhấn <strong>ĐẶT VÉ</strong> để xác nhận</a> <br/>
-   <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/63795704_2353025411687846_3513594581717352448_n.png?_nc_cat=106&_nc_oc=AQntffKhwRXIFE6Q5g0eVHiw7SBtxmyQL6wxwvcrtiLuROXdbFg6oystCkgjZgu6G2s&_nc_ht=scontent.fdad1-1.fna&oh=7f81a5fadddfcc00cc7ed1660bb1c360&oe=5D927D90"/> <br/>
+   <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/64524850_1260297697460192_6468225145822511104_n.png?_nc_cat=105&_nc_oc=AQk6d-fByZoYHB_ltaF817YpSRoFoK-QLibD8JobJMUTBgSjF8i7St6jMWuT-4x5vLc&_nc_ht=scontent.fdad1-1.fna&oh=885d54c18c3f719a8b4165efeac7c484&oe=5D806FAC"/> <br/>
    
  <a>Nhấn <strong>CHẤP NHẬN</strong>, bạn đã hoàn thành ứng dụng ĐẶT VÉ XEM PHIM<a/>
      
