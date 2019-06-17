@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CC02FFED"
+    android:background="@drawable/background"
     tools:context=".trangchu">
 
 
@@ -16,7 +16,8 @@
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="#4DE7D9D9">
 
             <ImageView
                 android:id="@+id/imageView"
@@ -165,37 +166,35 @@
                 android:layout_height="24dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
+
                 android:layout_marginTop="8dp"
                 android:entries="@array/chonphim_array"
                 android:spinnerMode="dropdown"
-                android:textColor="#FFFFFF"
+                android:textColor="#090909"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txtChọnPhim4" />
 
             <Button
                 android:id="@+id/btnxacnhan"
-                android:layout_width="106dp"
+                android:layout_width="400dp"
                 android:layout_height="52dp"
-                android:layout_marginTop="6dp"
-                android:layout_marginEnd="22dp"
-                android:layout_marginRight="22dp"
+                android:layout_marginTop="9dp"
                 android:background="#CC000000"
                 android:text="ĐẶT VÉ"
                 android:textColor="#FF0000"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tableLayout6" />
 
             <Button
                 android:id="@+id/btnhuy"
-                android:layout_width="97dp"
+                android:layout_width="400dp"
                 android:layout_height="53dp"
-                android:layout_marginStart="27dp"
-                android:layout_marginLeft="27dp"
+                android:layout_marginTop="5dp"
                 android:background="#CC000000"
                 android:text="hủy Mua"
                 android:textColor="#FF0000"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tableLayout6" />
+                app:layout_constraintTop_toBottomOf="@+id/btnxacnhan" />
 
             <LinearLayout
                 android:id="@+id/linearLayout4"
@@ -259,6 +258,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
+                    android:textColor="#090909"
                     android:text="BẮP RANG"
                     android:textSize="18sp" />
 
@@ -267,6 +267,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="34dp"
                     android:text="NƯỚC NGỌT"
+                    android:textColor="#090909"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -288,6 +289,7 @@
                 android:layout_height="35dp"
                 android:layout_marginTop="7dp"
                 android:layout_marginEnd="6dp"
+                android:textColor="#090909"
                 android:layout_marginRight="6dp"
                 android:entries="@array/donvi"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -329,20 +331,22 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginLeft="4dp"
                 android:layout_marginTop="5dp"
+                android:background="#0F0F0F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4">
 
+
                 <TableRow
                     android:id="@+id/A"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <CheckBox
                         android:id="@+id/checkBox1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:text="A1" />
+                        android:text="A1"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox2"
@@ -350,13 +354,17 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="A2" />
+                        android:text="A2"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="A3" />
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="A3"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox4"
@@ -364,7 +372,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginLeft="20dp"
-                        android:text="A4" />
+                        android:text="A4"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox5"
@@ -372,7 +381,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="A5" />
+                        android:text="A5"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox3"
@@ -380,7 +390,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="A6" />
+                        android:text="A6"
+                        android:textColor="#FA0000" />
                 </TableRow>
 
                 <TableRow
@@ -392,7 +403,8 @@
                         android:id="@+id/checkBox20"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="B1" />
+                        android:text="B1"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox10"
@@ -400,7 +412,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="B2" />
+                        android:text="B2"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox6"
@@ -408,7 +421,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="B3" />
+                        android:text="B3"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox11"
@@ -416,7 +430,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginLeft="20dp"
-                        android:text="B4" />
+                        android:text="B4"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox12"
@@ -424,7 +439,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="B5" />
+                        android:text="B5"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox13"
@@ -432,11 +448,14 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="B6" />
+                        android:text="B6"
+                        android:textColor="#FA0000" />
                 </TableRow>
+
 
                 <TableRow
                     android:id="@+id/C"
+
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
@@ -444,7 +463,8 @@
                         android:id="@+id/checkBox24"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="C1" />
+                        android:text="C1"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox15"
@@ -452,7 +472,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="C2" />
+                        android:text="C2"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox16"
@@ -460,7 +481,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="C3" />
+                        android:text="C3"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox17"
@@ -468,7 +490,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginLeft="20dp"
-                        android:text="C4" />
+                        android:text="C4"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox18"
@@ -476,7 +499,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="C5" />
+                        android:text="C5"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox19"
@@ -484,19 +508,22 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="C6" />
+                        android:text="C6"
+                        android:textColor="#FA0000" />
                 </TableRow>
 
                 <TableRow
                     android:id="@+id/D"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:textColor="#FA0000">
 
                     <CheckBox
                         android:id="@+id/checkBox32"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="D1" />
+                        android:text="D1"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox21"
@@ -504,7 +531,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="D2" />
+                        android:text="D2"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox22"
@@ -512,7 +540,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="D3" />
+                        android:text="D3"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox25"
@@ -520,7 +549,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginLeft="20dp"
-                        android:text="D4" />
+                        android:text="D4"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox26"
@@ -528,7 +558,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="D5" />
+                        android:text="D5"
+                        android:textColor="#FA0000" />
 
                     <CheckBox
                         android:id="@+id/checkBox23"
@@ -536,7 +567,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:text="D6" />
+                        android:text="D6"
+                        android:textColor="#FA0000" />
                 </TableRow>
 
             </TableLayout>

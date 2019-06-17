@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CC02FFED"
+    android:background="@drawable/background"
     tools:context=".intr_doraemon">
 
     <ScrollView
@@ -54,6 +54,7 @@
                 android:layout_width="193dp"
                 android:layout_height="296dp"
                 android:layout_marginTop="24dp"
+                android:background="#80000000"
                 app:layout_constraintStart_toEndOf="@+id/tableLayout"
                 app:layout_constraintTop_toBottomOf="@+id/imageView10">
 
@@ -65,9 +66,9 @@
                         android:id="@+id/textView"
                         android:layout_width="wrap_content"
 
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:text="NOBITA VÀ CHUYẾN THÁM HIỂM MẶT TRĂNG"
-                        android:textColor="#111"
+                        android:textColor="#EE0000"
                         android:textSize="25dp" />
                 </TableRow>
 
@@ -80,6 +81,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="Đạo Diễn:Shinnosuke Yakuwa"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -92,6 +94,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:text="Quốc Gia:Nhật Bản"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -105,6 +108,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="Thể Loại: Phim Hoạt Hình"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -117,6 +121,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="50dp"
                         android:text="Ngày Công Chiếu:29/5/2019"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -141,10 +146,11 @@
 
                 <TextView
                     android:id="@+id/textView11"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/nddoraemon"
-                    android:textColor="#050505"
+                    android:textColor="#FFFFFF"
                     android:textSize="17dp" />
 
                 <Button

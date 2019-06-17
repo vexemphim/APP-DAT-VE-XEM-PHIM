@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">DatVeXemPhim</string>
-    <string name="txtTen">Họ Và Tên:</string>
+    <string name="app_name">VÉ PHIM ONLINE</string>
+    <string name="txtTen">HỌ VÀ TÊN:</string>
     <string name="diachi">Địa chỉ: Đường N1, Khu trường học đào tạo và dạy nghề Bắc Hòn Ông – Phước Đồng – Nha Trang – Khánh Hòa </string>
     <string name="cinema">TRUNG NGUYEN CINEMA</string>
-    <string name="txtSĐT">Số điện thoại:</string>
-    <string name="txtNgàySinh">Email:</string>
+    <string name="txtSĐT">ĐIỆN THOẠI:</string>
+    <string name="txtNgàySinh">EMAIL:</string>
     <string name="editTên"></string>
     <string name="editSĐT"></string>
     <string name="editNgàySinh"></string>

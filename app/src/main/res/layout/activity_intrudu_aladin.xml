@@ -9,7 +9,7 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#CC02FFED"
+        android:background="@drawable/background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -42,6 +42,7 @@
                 android:layout_width="205dp"
                 android:layout_height="270dp"
                 android:layout_marginTop="55dp"
+                android:background="#80000000"
                 app:layout_constraintStart_toEndOf="@+id/imageView11"
                 app:layout_constraintTop_toBottomOf="@+id/imageView10">
 
@@ -55,7 +56,7 @@
 
                         android:layout_height="wrap_content"
                         android:text="ALADDIN"
-                        android:textColor="#111"
+                        android:textColor="#FF0000"
                         android:textSize="30dp" />
                 </TableRow>
 
@@ -68,6 +69,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:text="Đạo Diễn:Guy Ritchie"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -80,6 +82,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:text="Quốc Gia: Mỹ"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -92,6 +95,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:text="Thời Lượng: 135 phút"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -104,6 +108,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:text="Thể Loại: Phiêu Lưu"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -116,6 +121,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="50dp"
                         android:text="Ngày Công Chiếu: 24-05-2019"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -125,8 +131,6 @@
                 android:id="@+id/linearLayout"
                 android:layout_width="wrap_content"
                 android:layout_height="325dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
                 android:orientation="vertical"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tableLayout3">
@@ -145,7 +149,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="210dp"
                     android:text="@string/ndaladdin"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="17dp" />
 
                 <Button
