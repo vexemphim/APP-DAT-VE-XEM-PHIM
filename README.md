@@ -19,12 +19,13 @@
   
    
    <a> Sau khi chọn <strong>ĐẶT VÉ</strong>. Giao diện chuyển sang trang mới, trang ĐẶT VÉ PHIM.<br/>
-        Tại đây,hãy điền đầy đủ thông tin bên dưới <br/>
+       
     
    </a>
     <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/64287812_2214274775352774_4842187193692717056_n.png?_nc_cat=104&_nc_oc=AQkI98QIJsPBptv0MD_bLmZSxCbzQl7u_1JRR6ktIM9WouFafHA1etrRsoOHAmks7JU&_nc_ht=scontent.fdad1-1.fna&oh=d1edd9779539784271a7464b233c07f4&oe=5DC53D73"/> <br/>
+     Tại đây,hãy điền đầy đủ thông tin bên dưới <br/>
     <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/64464025_337257233617074_5811208948987985920_n.png?_nc_cat=107&_nc_oc=AQlMjd2mdCs3z8DwDun1MxUhqNOLiLcvUHiJaaJtd8hXnGAezzJQEssao_vUT1XxxTs&_nc_ht=scontent.fdad2-1.fna&oh=6460b3af46c343851670569b675ce5ab&oe=5D99E238"/> <br/>
-    <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/64506359_2349271458659537_1777394227433439232_n.png?_nc_cat=110&_nc_oc=AQmh12XgwlWJkNCDRgEQWSAtri6oh4s6Y73-EsvrflP3_htXxc7qJ8ct_yUAS4qJz5w&_nc_ht=scontent.fdad2-1.fna&oh=35029ddc424304b2a06b8cb0beca9074&oe=5D87565D"/>
+    <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/64506359_2349271458659537_1777394227433439232_n.png?_nc_cat=110&_nc_oc=AQmh12XgwlWJkNCDRgEQWSAtri6oh4s6Y73-EsvrflP3_htXxc7qJ8ct_yUAS4qJz5w&_nc_ht=scontent.fdad2-1.fna&oh=35029ddc424304b2a06b8cb0beca9074&oe=5D87565D"/><br/>
     
    <a> Mọi thao tác đã xong. Nhấn <strong>ĐẶT VÉ</strong> để xác nhận</a> <br/>
    <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/64524850_1260297697460192_6468225145822511104_n.png?_nc_cat=105&_nc_oc=AQk6d-fByZoYHB_ltaF817YpSRoFoK-QLibD8JobJMUTBgSjF8i7St6jMWuT-4x5vLc&_nc_ht=scontent.fdad1-1.fna&oh=885d54c18c3f719a8b4165efeac7c484&oe=5D806FAC"/> <br/>
