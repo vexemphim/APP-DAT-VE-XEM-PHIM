@@ -15,7 +15,7 @@
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#CC02FFED">
+           android:background="@drawable/background">
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -55,6 +55,7 @@
                 android:layout_width="193dp"
                 android:layout_height="296dp"
                 android:layout_marginTop="24dp"
+                android:background="#80000000"
                 app:layout_constraintStart_toEndOf="@+id/tableLayout"
                 app:layout_constraintTop_toBottomOf="@+id/imageView10">
 
@@ -68,7 +69,7 @@
 
                         android:layout_height="wrap_content"
                         android:text="CHÚA TỂ GODZILLA: ĐẾ VƯƠNG BẤT TỬ"
-                        android:textColor="#111"
+                        android:textColor="#FF0000"
                         android:textSize="25dp" />
                 </TableRow>
 
@@ -81,6 +82,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="Đạo Diễn:Michael Dougherty"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -93,6 +95,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:text="Quốc Gia: Mỹ, Nhật Bản"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -105,6 +108,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:text="Thời Lượng: 131 phút"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -117,6 +121,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="Thể Loại: Phim Hành Động, Viễn Tưởng"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -129,6 +134,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="50dp"
                         android:text="Ngày Công Chiếu:29/5/2019"
+                        android:textColor="#FFFFFF"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -153,6 +159,7 @@
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
+                    android:textColor="#FFFFFF"
                     android:layout_height="wrap_content"
                     android:text="@string/ndgodzilla"
                     android:textSize="17dp" />
