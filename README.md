@@ -16,7 +16,7 @@
    <a> Nhấn <strong>ĐẶT VÉ</strong></a><br/>
 
 
-   <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/62597638_2372897799648386_5941134514305630208_n.png?_nc_cat=103&_nc_oc=AQmeKvculVdND45XIfMmSwDwxPKpKwbpWm_RPx4BefNz-ExKPCC9yj4J0Qkas7KdjmI&_nc_ht=scontent.fdad1-1.fna&oh=14a6d4162034d92080e07d5097875a0b&oe=5D9C138E"/> <br/>
+  
    
    <a> Sau khi chọn <strong>ĐẶT VÉ</strong>. Giao diện chuyển sang trang mới, trang ĐẶT VÉ PHIM.<br/>
         Tại đây,hãy điền đầy đủ thông tin bên dưới <br/>
